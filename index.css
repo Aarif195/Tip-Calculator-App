@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(185, 41%, 84%);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 4rem auto;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 50%;
+  padding: 2rem 1rem;
+}
+
+.first-div {
+  padding: 1rem 1rem;
+  width: 30%;
+  /* background-color: red; */
+
+  border-radius: 20px;
+}
+
+.first-div h4 {
+  margin-top: 30px;
+  color: hsl(186, 14%, 43%);
+}
+
+
+.button-container button {
+  width: 30%;
+  color: white;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  border: none;
+
+}
+
+
+.button-container .custom-btn {
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(186, 14%, 43%);
+  border: none;
+  font-weight: 400;
+}
+
+.button-container .btn {
+  background-color: hsl(186, 92%, 44%);
+}
+
+.div-input {
+  width: 90%;
+  background-color: hsl(185, 41%, 84%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: hsl(183, 100%, 15%);
+  font-weight: 800;
+}
+
+
+.second-div {
+  padding: 1rem 1rem;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 15px;
+  width: 30%;
+  /* display: flex;
+flex-direction: column; */
+
+}
+
+.tip {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 25px;
+}
+
+.tip p {
+  color: #fff;
+  /* margin-top: 25px; */
+  /* font-size: 16px; */
+  font-weight: 700;
+}
+
+.tip-amount span {
+  display: block;
+  color: hsl(185, 41%, 84%);
+  font-weight: 300;
+}
+
+.dol-span img {
+  color: hsl(186, 92%, 44%);
+}
+
+.dol-span {
+  font-size: 31px;
+  /* color: hsl(184, 14%, 56%); */
+  color: hsl(186, 92%, 44%);
+  font-weight: 700;
+}
+
+.second-div button {
+  padding: 9px 9px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  margin-top: 100px;
+  background-color: hsl(186, 92%, 44%);
+  /* background-color: hsl(186, 14%, 43%); */
+
+  /* margin-left: 20px; */
+}
+
+
+/* MOBILE DESIGN */
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 1rem 1rem;
+  }
+
+  section {
+    width: 80%;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .first-div {
+    margin-top: -1rem;
+  }
+
+  .first-div,
+  .second-div {
+    padding: 1rem 1.5rem;
+    width: 80%;
+  }
+
+
+  .second-div button {
+    width: 100%;
+  }
+
+  .div-input {
+    width: 100%;
+  }
+
+  .tip {
+    /* flex-direction: column; */
+  }
+
+  .button-container button {
+    width: 47%;
+    padding: 10px;
+  }
+
+  .second-div button {
+    margin-top: 30px;
+  }
+
+}
